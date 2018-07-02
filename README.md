@@ -19,10 +19,10 @@ All platforms:
 
 Current release info
 ====================
-[![Conda Recipe](https://img.shields.io/badge/recipe-crontab-green.svg)](https://anaconda.org/conda-forge/crontab)
-[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/crontab.svg)](https://anaconda.org/conda-forge/crontab)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/crontab.svg)](https://anaconda.org/conda-forge/crontab)
-[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/crontab.svg)](https://anaconda.org/conda-forge/crontab)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-crontab-green.svg)](https://anaconda.org/conda-forge/crontab) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/crontab.svg)](https://anaconda.org/conda-forge/crontab) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/crontab.svg)](https://anaconda.org/conda-forge/crontab) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/crontab.svg)](https://anaconda.org/conda-forge/crontab) |
 
 Installing crontab
 ==================
