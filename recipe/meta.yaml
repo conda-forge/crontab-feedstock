@@ -1,6 +1,6 @@
 {% set name = "crontab" %}
-{% set version = "0.22.6" %}
-{% set sha256 = "c8b4dd666e86c14ba2edf58cdd69066f4e424ff51b9af1188f43e421f5b1ecb8" %}
+{% set version = "0.22.8" %}
+{% set sha256 = "1ac977fb1b8ba5b7b58e6f713cd7df36e61d7aee4c2b809abcf76adddd2deeaf" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -32,7 +32,7 @@ about:
   license: LGPL-2.1 or LGPL-3.0
   license_family: LGPL
   license_file: LICENSE3
-  summary: 'Parse and use crontab schedules in Python'
+  summary: Parse and use crontab schedules in Python
 
 extra:
   recipe-maintainers:
