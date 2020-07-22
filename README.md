@@ -5,7 +5,7 @@ Home: https://github.com/josiahcarlson/parse-crontab
 
 Package license: LGPL-2.1 or LGPL-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Parse and use crontab schedules in Python
 
