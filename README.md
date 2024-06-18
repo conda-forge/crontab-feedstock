@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/crontab-feedsto
 
 Home: https://github.com/josiahcarlson/parse-crontab
 
-Package license: LGPL-2.1 or LGPL-3.0
+Package license: LGPL-2.1
 
 Summary: Parse and use crontab schedules in Python
 
