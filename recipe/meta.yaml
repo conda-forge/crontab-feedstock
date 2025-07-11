@@ -1,5 +1,5 @@
 {% set name = "crontab" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/crontab-{{ version }}.tar.gz
-  sha256: 89477e3f93c81365e738d5ee2659509e6373bb2846de13922663e79aa74c6b91
+  sha256: f80e01b4f07219763a9869f926dd17147278e7965a928089bca6d3dc80ae46d5
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
